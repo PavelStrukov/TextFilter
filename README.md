@@ -13,7 +13,9 @@
 
 
 interface TextAnalyzer {
+
     Label processText(String text);
+    
 }
 
 
@@ -21,7 +23,9 @@ Label – тип-перечисление, которые содержит ме�
 
 
 enum Label {
+
     SPAM, NEGATIVE_TEXT, TOO_LONG, OK
+    
 }
 
 
